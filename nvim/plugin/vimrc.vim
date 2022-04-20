@@ -5,4 +5,4 @@ set number
 set clipboard^=unnamed,unnamedplus
 set shell=/usr/bin/zsh
 set ignorecase smartcase
-
+set nolist wrap linebreak breakat&vim
