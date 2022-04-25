@@ -5,3 +5,4 @@ vim.api.nvim_set_keymap(
   "<cmd>NvimTreeToggle<cr>",
   { noremap = true }
 )
+

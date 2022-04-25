@@ -1,7 +1,7 @@
 nnoremap <silent> gb :<C-U>call <SID>GoToBuffer(v:count, 'forward')<CR>
 nnoremap <silent> gB :<C-U>call <SID>GoToBuffer(v:count, 'backward')<CR>
 nnoremap <leader>bn :enew<CR>
-nnoremap <leader>bd :bd<CR>
+nnoremap <leader>bd :bp\|bd #<CR>
 
 function! s:GoToBuffer(count, direction) abort
   if a:count == 0
