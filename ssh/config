@@ -1,0 +1,11 @@
+#github account
+Host github.com
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_github
+
+#hpi gitlab account
+Host gitlab.hpi.de
+	HostName gitlab.hpi.de
+	User git
+	IdentityFile ~/.ssh/id_hpi_gitlab
