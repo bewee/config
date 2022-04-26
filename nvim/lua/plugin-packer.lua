@@ -24,11 +24,13 @@ require("packer").startup(function()
   }
   use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
   use {
-      'kyazdani42/nvim-tree.lua',
-      requires = {
-        'kyazdani42/nvim-web-devicons',
-      },
-      config = function() require'nvim-tree'.setup {} end
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v2.x",
+    requires = { 
+      "nvim-lua/plenary.nvim",
+      "kyazdani42/nvim-web-devicons",
+      "MunifTanjim/nui.nvim",
+    },
   }
 end)
 
@@ -37,5 +39,5 @@ require("plugin-toggleterm")
 require("plugin-bufferline")
 require("plugin-lualine")
 require("plugin-diffview")
-require("plugin-nvimtree")
+require("plugin-neotree")
 

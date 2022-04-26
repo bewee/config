@@ -41,8 +41,15 @@ vim.api.nvim_set_keymap(
 
 vim.api.nvim_set_keymap(
   "n",
-  "<leader>tr",
+  "<leader>rr",
   "<cmd>Telescope registers<cr>",
+  { noremap = true }
+)
+
+vim.api.nvim_set_keymap(
+  "n",
+  "<leader>bb",
+  "<cmd>Telescope buffers<cr>",
   { noremap = true }
 )
 

@@ -1,7 +1,17 @@
 nnoremap <silent> gb :<C-U>call <SID>GoToBuffer(v:count, 'forward')<CR>
 nnoremap <silent> gB :<C-U>call <SID>GoToBuffer(v:count, 'backward')<CR>
 nnoremap <leader>bn :enew<CR>
-nnoremap <leader>bd :bp\|bd #<CR>
+nnoremap <leader>bd :BufferDelete 0<CR>
+nnoremap <leader>bs :b#<CR>
+
+function! BufferDelete(bufnum)
+  if bufnr('%') == a:bufnum || a:bufnum == 0
+    bp|bd #
+  else
+    silent execute('bd' . a:bufnum)
+  endif
+endfunction
+:command! -nargs=1 BufferDelete :call BufferDelete(<q-args>)
 
 function! s:GoToBuffer(count, direction) abort
   if a:count == 0
