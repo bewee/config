@@ -32,12 +32,21 @@ require("packer").startup(function()
       "MunifTanjim/nui.nvim",
     },
   }
+  use { "nvim-treesitter/nvim-treesitter" }
+  use { "jakewvincent/mkdnflow.nvim" }
+  use { "lewis6991/gitsigns.nvim" }
+  use { 'neovim/nvim-lspconfig' }
 end)
 
 require("plugin-telescope")
 require("plugin-toggleterm")
 require("plugin-bufferline")
+require("plugin-tokyonight")
 require("plugin-lualine")
 require("plugin-diffview")
 require("plugin-neotree")
+require("plugin-treesitter")
+require("plugin-mkdnflow")
+require("plugin-gitsigns")
+require("plugin-lspconfig")
 

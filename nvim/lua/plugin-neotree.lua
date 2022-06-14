@@ -14,3 +14,11 @@ vim.api.nvim_set_keymap(
   ":NeoTreeRevealToggle<cr>",
   { noremap = true }
 )
+
+vim.api.nvim_set_keymap(
+  "n",
+  "<leader>gs",
+  ":Neotree git_status float<cr>",
+  { noremap = true }
+)
+

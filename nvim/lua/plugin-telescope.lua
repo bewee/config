@@ -34,13 +34,6 @@ vim.api.nvim_set_keymap(
 
 vim.api.nvim_set_keymap(
   "n",
-  "<leader>gs",
-  "<cmd>Telescope git_status<cr>",
-  { noremap = true }
-)
-
-vim.api.nvim_set_keymap(
-  "n",
   "<leader>rr",
   "<cmd>Telescope registers<cr>",
   { noremap = true }

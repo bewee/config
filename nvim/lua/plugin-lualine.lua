@@ -7,6 +7,3 @@ require("lualine").setup {
   extensions = { 'toggleterm', neotree_extension }
 }
 
-vim.cmd[[colorscheme tokyonight]]
-vim.g.tokyonight_style = "storm"
-

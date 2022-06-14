@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/b/.local/share/nvim/site/pack/packer/start/diffview.nvim",
     url = "https://github.com/sindrets/diffview.nvim"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/b/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["indent-o-matic"] = {
     loaded = true,
     path = "/home/b/.local/share/nvim/site/pack/packer/start/indent-o-matic",
@@ -93,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/b/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["mkdnflow.nvim"] = {
+    loaded = true,
+    path = "/home/b/.local/share/nvim/site/pack/packer/start/mkdnflow.nvim",
+    url = "https://github.com/jakewvincent/mkdnflow.nvim"
   },
   ["neo-tree.nvim"] = {
     loaded = true,
@@ -104,10 +114,20 @@ _G.packer_plugins = {
     path = "/home/b/.local/share/nvim/site/pack/packer/start/nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
   },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/b/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-tetris"] = {
     loaded = true,
     path = "/home/b/.local/share/nvim/site/pack/packer/start/nvim-tetris",
     url = "https://github.com/alec-gibson/nvim-tetris"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/b/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
